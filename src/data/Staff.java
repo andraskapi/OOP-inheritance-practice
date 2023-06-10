@@ -10,8 +10,7 @@ public class Staff extends Person {
     }
     @Override
     public String toString(){
-        return "Staff[Person[name : " + getName() + "address : " + getAddress() +
-                "]" + "school : " + this.school + "pay : " + this.pay + "]";
+        return "Staff[" + super.toString() + "school : " + this.school + "pay : " + this.pay + "]";
     }
 
     public String getSchool() {
